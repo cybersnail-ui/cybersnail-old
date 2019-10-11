@@ -5,3 +5,28 @@
     margin: 3rem;
     padding: 2rem;
 }
+
+html
+{
+    background-image: linear-gradient(#1D976C,#93F9B9);
+}
+
+h2
+{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+h2::after
+{
+    content: '';
+    background-image: linear-gradient(90deg, #1D976C, #93F9B9);
+    display: block;
+    height: .15rem;
+    margin-top: 1rem;
+}
+
+.main
+{
+    border-top: solid .1rem #dddddd;
+}
