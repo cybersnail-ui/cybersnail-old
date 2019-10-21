@@ -9,6 +9,7 @@
 html
 {
     background-image: linear-gradient(#1D976C,#93F9B9);
+    scroll-behavior: smooth;
     min-height: 100%
 }
 
@@ -30,4 +31,13 @@ h2::after
 .main
 {
     border-top: solid .1rem #dddddd;
+    height: 15rem;
+}
+
+.nav {
+    background-color: #ebebeb;
+    border-radius: .5rem;
+    margin: 3rem;
+    padding: 2rem;
+    text-align: center;
 }
