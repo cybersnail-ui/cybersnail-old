@@ -114,6 +114,7 @@ p {
   
   .sticky {
     position: sticky;
+    position: -webkit-sticky;
     top: 0;
     background-color: #81c9be;
   }
