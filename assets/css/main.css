@@ -1,12 +1,12 @@
 .content
 {
-    background-color: whitesmoke;
-    width: 85%;
+    background-color: #ffffff;
+    width: 90%;
     margin: auto;
 }
 
 body {
-    margin-top: 2rem;
+    margin: 0;
     padding-bottom: 20rem;  
 }
 
@@ -22,14 +22,13 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    width: 85%;
+    width: 90%;
     margin: 0 auto;
-    box-shadow: 0px 1px 1px rgba(0,0,0,0.2);
     
 }
 
 .divider {
-    border-top: solid .1rem #928DAB;
+    border-top: solid .1rem #f7f7f7;
 }
 
 
@@ -43,37 +42,41 @@ html
 h2
 {
     text-align: center;
-    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
     margin: 1rem;
+    color: #444444;
 }
 
 h2::after
 {
     content: '';
-    background-image: linear-gradient(90deg, #1F1C2C, #928DAB);
+    background-color: #81c9be;
     display: block;
     height: .15rem;
     margin-top: 1rem;
 }
 
 p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
     margin: 1rem;
+    color: #444444;
 }
 
 .header {
     border-radius: .5rem .5rem 0 0;
-    background-color: #f1f1f1;
+    background-color: #f7f7f7;
     text-align: center;
-    width: 85%;
+    width: 90%;
     margin: auto;
     height: 8rem;
   }
   
   #navbar {
     overflow: hidden;
-    background-color: lightslategray;
-    width: 85%;
+    background-color: #f7f7f7;
+    width: 90%;
     margin: auto;
     display: flex;
     justify-content: space-around;
@@ -82,10 +85,11 @@ p {
   #navbar a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: #444444;;
     padding: 14px 16px;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
   }
   
   .sticky {
