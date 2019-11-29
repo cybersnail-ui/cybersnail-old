@@ -20,10 +20,8 @@ button {
 	border-radius: 4px;
 }
 .card {
-    background-color: #f7f7f7;
-    border-radius: 4px;
-	padding-bottom: 1rem;
-	margin-top: 1rem;
+	background-color: #f7f7f7;
+	flex: 1 1 auto;
 }
 .card p {
 	text-align: center;
@@ -35,7 +33,7 @@ button {
 .container {
 	display: flex;
 	align-items: flex-end;
-    justify-content: space-between;
+    justify-content: center;
 	flex-wrap: wrap;
 	margin: 0 .5rem;
 }
