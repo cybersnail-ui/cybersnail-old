@@ -20,7 +20,6 @@ button {
 	border-radius: 4px;
 }
 .card {
-	background-color: #f7f7f7;
 	flex: 1 1 auto;
 }
 .card p {
@@ -44,6 +43,38 @@ button {
 }
 .divider {
 	border-top: solid .1rem #f7f7f7;
+}
+.item {
+	margin-top: 1rem;
+	display: block;
+	margin: 1rem auto 0;
+}
+form {
+	width: 100%;
+	margin: 0 1rem;
+}
+form input {
+	height: 2rem;
+	width: 15rem;
+    border-radius: 4px;
+    border: .2rem solid #81c9be;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #444444;
+	padding: .5rem;
+}
+form textarea {
+	height: 8rem;
+	width: 15rem;
+    border-radius: 4px;
+    border: .2rem solid #81c9be;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #444444;
+	padding: .5rem;
+}
+form button {
+
 }
 .header {
 	text-align: center;
@@ -124,6 +155,10 @@ p {
 	color: #444444;
 	text-align: left;
 }
+::placeholder {
+	color: #DCDCDC;
+	opacity: 1;
+  }
 .sticky {
 	position: sticky;
 	position: -webkit-sticky;
