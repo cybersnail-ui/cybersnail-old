@@ -76,9 +76,6 @@ form textarea {
 	padding: .5rem;
 	-webkit-appearance: none;
 }
-form button {
-
-}
 .header {
 	text-align: center;
 	margin: auto;
@@ -131,7 +128,7 @@ html {
 		background-color: #81c9be;
 		scroll-behavior: smooth;
 		min-height: 100%;
-		margin: 0 32.5%;
+		margin: 0 35%;
 	}
 }
 h2 {
