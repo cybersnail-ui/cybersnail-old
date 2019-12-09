@@ -49,6 +49,7 @@ button {
 	margin-top: 1rem;
 	display: block;
 	margin: 1rem auto 0;
+	text-decoration: none;
 }
 form {
 	width: 100%;
